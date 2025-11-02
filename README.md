@@ -1,4 +1,4 @@
-# Pingchuan Ma's Homepage
+# Peihao Li's Homepage
 
 Repository for a research-oriented personal homepage. Please preview the homepage using [this link](https://pingchuan.ma/). This repository is under active development. Please let me know if you encounter any bugs or have any interesting ideas by submitting them through the issues or pull requests (PR).
 
