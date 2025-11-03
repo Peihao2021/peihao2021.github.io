@@ -117,10 +117,10 @@
   const ProfileManager = {
     counter: 0,
     hoverImages: [
-      "assets/profile/cuda.webp",
-      "assets/profile/mcflurry.webp",
+      "assets/avatar/2.jpg",
+      "assets/avatar/3.jpg",
     ],
-    defaultImage: "assets/profile/pcma.webp",
+    defaultImage: "assets/avatar/1.jpg",
 
     init() {
       const profileCredit = document.getElementById("profile-credit");
@@ -235,7 +235,7 @@
   // Initialize everything when DOM is ready
   const initializeApp = () => {
     ThemeManager.init();
-    ProfileManager.init();
+    //ProfileManager.init();
     ClipboardManager.init();
     Utils.setFooterYear();
     Utils.setupMoreContentScroll();

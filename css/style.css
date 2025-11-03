@@ -66,6 +66,32 @@ body {
   line-height: var(--line-height);
 }
 
+.quote-section {
+  margin: 15px 0;
+  padding: 0;
+  border: none;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+.quote-section p {
+  margin-bottom: 5px;
+}
+
+.quote-section footer {
+  font-size: var(--font-size);
+  color: var(--dark-gray);
+  margin-top: 0;
+}
+
+[data-bs-theme=dark] .quote-section footer {
+  color: var(--light-gray);
+}
+
+.quote-section.zh {
+  font-style: normal;
+}
+
 body .container,
 body .container-fluid {
   max-width: var(--page-width);
@@ -199,6 +225,8 @@ a:hover {
 .home-wrapper .picture img {
   width: 100%;
   max-width: 200px;
+  height: auto;
+  display: block;
   margin-right: 40px;
 }
 
@@ -301,6 +329,15 @@ a:hover {
 }
 
 .pub-wrapper .link .venue {
+  font-weight: bold;
+}
+
+.pub-wrapper .venue-line {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.pub-wrapper .venue-line .venue {
   font-weight: bold;
 }
 
