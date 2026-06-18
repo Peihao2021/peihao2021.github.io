@@ -200,16 +200,11 @@ a:hover {
 
 .umich-news-icon {
   display: inline-block;
-  width: 1.2em;
-  margin-right: 0.15em;
-  color: #ffcb05;
-  font-weight: 900;
-  text-align: center;
-  text-shadow:
-    -0.7px -0.7px 0 #00274c,
-    0.7px -0.7px 0 #00274c,
-    -0.7px 0.7px 0 #00274c,
-    0.7px 0.7px 0 #00274c;
+  width: 1.05em;
+  height: 1.05em;
+  margin-right: 0.2em;
+  object-fit: contain;
+  vertical-align: -0.12em;
 }
 
 @media (max-width: 767.98px) {
