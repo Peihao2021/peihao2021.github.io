@@ -222,6 +222,21 @@
       }
     },
 
+    setupNewsToggle() {
+      const moreNews = document.getElementById('more-news');
+      const newsToggle = document.querySelector('[data-bs-target="#more-news"]');
+
+      if (!moreNews || !newsToggle) return;
+
+      moreNews.addEventListener('shown.bs.collapse', () => {
+        newsToggle.textContent = 'Less News';
+      });
+
+      moreNews.addEventListener('hidden.bs.collapse', () => {
+        newsToggle.textContent = 'More News';
+      });
+    },
+
     setupExternalLinks() {
       const links = document.querySelectorAll('a[href]:not([href^="#"])');
 
@@ -239,6 +254,7 @@
     ClipboardManager.init();
     Utils.setFooterYear();
     Utils.setupMoreContentScroll();
+    Utils.setupNewsToggle();
     Utils.setupExternalLinks();
   };
 

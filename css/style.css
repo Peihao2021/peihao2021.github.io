@@ -171,6 +171,47 @@ a:hover {
   background-color: var(--dark-cardinal);
 }
 
+/*------------------
+ * News
+ *------------------*/
+
+.news-toggle-btn {
+  margin-top: 8px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--cardinal);
+  font: inherit;
+}
+
+.news-toggle-btn:hover,
+.news-toggle-btn:focus {
+  text-decoration: underline;
+}
+
+[data-bs-theme=dark] .news-toggle-btn {
+  color: var(--light-cardinal);
+}
+
+.news-highlight {
+  color: #e64f6a;
+  font-weight: bold;
+}
+
+.umich-news-icon {
+  display: inline-block;
+  width: 1.2em;
+  margin-right: 0.15em;
+  color: #ffcb05;
+  font-weight: 900;
+  text-align: center;
+  text-shadow:
+    -0.7px -0.7px 0 #00274c,
+    0.7px -0.7px 0 #00274c,
+    -0.7px 0.7px 0 #00274c,
+    0.7px 0.7px 0 #00274c;
+}
+
 @media (max-width: 767.98px) {
   body {
     font-size: var(--mobile-font-size);
