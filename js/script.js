@@ -229,11 +229,11 @@
       if (!moreNews || !newsToggle) return;
 
       moreNews.addEventListener('shown.bs.collapse', () => {
-        newsToggle.textContent = 'Less News';
+        newsToggle.textContent = 'View Less';
       });
 
       moreNews.addEventListener('hidden.bs.collapse', () => {
-        newsToggle.textContent = 'More News';
+        newsToggle.textContent = 'View More';
       });
     },
 
