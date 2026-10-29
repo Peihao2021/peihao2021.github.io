@@ -275,6 +275,15 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.home-wrapper .description .zh-name {
+  margin-left: 3px;
+  font-family: "Kaiti SC", "STKaiti", "Songti SC", "Noto Serif CJK SC", serif;
+  font-size: 0.85em;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  vertical-align: 0.15em;
+}
+
 .home-wrapper .social {
   margin-top: 10px;
   margin-bottom: 0;
